@@ -72,7 +72,7 @@ Let's compile this semantic function to LLVM IR (bitcode)
 
 Now for the second step of lifting, the disassembly information in CFG is read, and IR is generated accordingly
 
-The general procedure is to generate a LLVM function for every function name in the CFG, then within the function, create a LLVM basic block for every Basic block in the CFG, and every instruction in a basic block is replaced with it's semantic function. 
+The general procedure is to generate a LLVM function for every function name in the CFG, then within the function, create a LLVM basic block for every Basic block in the CFG, and every instruction in a basic block is replaced with IR generated with it's semantic function. 
 
 Lastly, some optimizations are performed on the bitcode, like
 
