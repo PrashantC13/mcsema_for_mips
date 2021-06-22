@@ -16,7 +16,7 @@ Here, the instruction contains
 3 operands (2 registers and 1 immediate)
 
 The lifting process of **binary to IR** happends in two steps.
-The first step is to recover the control flow graph and other disassmeblt information fom the binary, and store it in a serialized fomrt.
+The first step is to recover the control flow graph and other is disassmeb it's information from the binary, and store it in a serialized format.
 
 The format is defined using protocl buffer and for a single instruction, the defined format looks like:
 ![image](protocol_buffer.png)
