@@ -1,9 +1,9 @@
 #Life of an instruction
-In this document, we will describe the life of an instruction i.e., the complete cycle of compiling, lifting and recompiling for a single instruction.
+In this document, we will describe the life of an instruction i.e., the complete cycle of compiling, lifting and recompiling for a single instruction.Here we are considering udp_server binary. These binary compiled using gcc mipsel cross-compiler and recompiled using clang compiler.
 
 ### Inside the binary
 
-In a compiled binary, a garden variety basic block would look like:
+In a compiled binary, a garden variety of functions and basic blocks are present. Here we are considering basic block inside main function:
 ![image](basic_block.png)
 
 Let's focus on just **addiu** for now
