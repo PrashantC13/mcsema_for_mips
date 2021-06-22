@@ -93,6 +93,7 @@ so where is the addiu from the dissassmbly?
 the semantic function simulates the semantic behaviour of an instructions. The actual LLVM instructions generated are totally up to the compiler.
 
 **Let's compile this back to assembly. The resultant assembly looks like:**
+![image](recompiled_IR.png)
 ```
 your asm goes here
 ```
